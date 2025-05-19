@@ -1,41 +1,56 @@
-# Artist List
-Esse projeto é um aplicativo Android nativo desenvolvido com a lingagem de programação Kotlin, criado para aprender princípios básicos da nova UI toolkit Compose.
+# 🎨 Artist List
 
-## :camera_flash: Screenshots
-<!-- You can add more screenshots here if you like -->
-<img src="https://github.com/ComunidadeDevSpace/ComposeInit/assets/11612508/4def44a9-b377-4e9c-b3b7-19cec8599e6d" width=260/>
+A simple native Android app built with **Kotlin** and **Jetpack Compose** to explore the fundamentals of declarative UI development. Artist List displays a scrollable list of artists, ideal for learning and practicing UI layout principles in Compose.
 
-## Tecnologias
-- 100% Kotlin
-- Compose
-  - Column
-  - Row
-  - Image
-  - Modifier
-  - Spacer
-  - LazyColumn
-  - ComposePreview
+---
 
-## License
-```
-The MIT License (MIT)
+## 🎯 Inspiration Behind the Name
 
-Copyright (c) 2024 Roque Buarque Junior
+**Artist List** reflects the app’s core purpose: to present a list-based interface using artist profiles as the theme. It serves as a learning sandbox for building structured layouts in Jetpack Compose using real visual elements.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 🩹 Problem We're Solving
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+Learning modern Android UI with Jetpack Compose can be overwhelming without a focused project. Artist List solves this by providing a clear and simple starting point for developers to:
+
+- 📦 Understand Compose structure and layout  
+- 🔄 Use scrollable lists with `LazyColumn`  
+- 🖼️ Display images and text in a clean format  
+- 🚀 Preview UIs efficiently during development  
+
+---
+
+## ✅ Features
+
+- 🧑‍🎨 List of artists displayed with image, name, and description  
+- 🧱 Jetpack Compose components like `Column`, `Row`, `Image`, `Spacer`  
+- 📜 Scrollable list built using `LazyColumn`  
+- 🔍 Real-time Compose Preview support for layout testing  
+- 🎨 Clean and readable UI, perfect for practice or starting new projects  
+
+---
+
+## 🧪 Requirements
+
+- Android Studio (recommended: Hedgehog or newer)  
+- Minimum SDK: 24  
+- Internet not required (static local data)  
+- No external API or backend needed  
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <img src="https://github.com/ComunidadeDevSpace/ComposeInit/assets/11612508/4def44a9-b377-4e9c-b3b7-19cec8599e6d" width="260"/>
+</div>
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ComunidadeDevSpace/ComposeInit.git
+cd ComposeInit
